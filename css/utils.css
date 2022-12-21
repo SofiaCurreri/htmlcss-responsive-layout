@@ -1,7 +1,37 @@
 /* Utils */
 
+a, a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;
 	display: table;
+}
+
+
+/* DIMENSIONI */
+.w70{
+	width: calc(70% - 1rem);
+
+	/* debug */
+	background-color: blueviolet;
+	height: 100px;
+}
+
+.w30{
+	width: calc(30% - 1rem);
+
+	/* debug */
+	background-color: blue;
+	height: 100px;
 }

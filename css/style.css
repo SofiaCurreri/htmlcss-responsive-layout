@@ -9,3 +9,46 @@
     width: 1300px;
     padding: 2rem;
 }
+
+.xs-container{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 2rem;
+}
+
+.bt{
+    padding: 11px 13px;
+    border-radius: 24px;
+}
+
+.bt.bt-white{
+    background-color: white;
+    color: black;
+}
+
+.primary-1{
+    background-color: white;
+}
+
+.primary-2{
+    background-color: rgb(151, 146, 228);
+}
+
+
+/* HEADER */
+header{
+    background-color: rgb(0, 132, 253);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
