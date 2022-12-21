@@ -43,3 +43,13 @@ ul {
 	background-color: blue;
 	height: 300px;
 }
+
+
+/* MARGINI */
+.mb3{
+	margin-bottom: 3rem;
+}
+
+.mt1{
+	margin-top: 1rem;
+}
