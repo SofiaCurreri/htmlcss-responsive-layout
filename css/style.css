@@ -22,6 +22,7 @@
 .col{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .bt{
@@ -61,13 +62,20 @@ nav{
 }
 
 /* MAIN */
-
-/* Section 1 */
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 1.5rem;
+}
+
+/* Section 3 */
+.w100.bordo{
+    border-radius: 20px;
+
+    /* debug */
+    height: 150px;
+    background-color: brown;
 }
 
 
@@ -86,6 +94,8 @@ nav{
     
     .xs-container{
         max-width: 768px;
+        display: flex;
+        flex-direction: column;
     }
     
     
@@ -106,6 +116,8 @@ nav{
     
     .xs-container{
         max-width: 480px;
+        display: flex;
+        flex-direction: column;
     }
 
     nav {
