@@ -12,8 +12,15 @@
 
 .xs-container{
     margin: 0 auto;
-    width: 1000px;
+    width: 1100px;
     padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
 }
 
 .bt{
@@ -44,11 +51,39 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(0, 132, 253);
+}
+
+.menu i{
+    display: none;
 }
 
 /* MAIN */
+
+/* Section 1 */
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* QUERY */
+@media screen and (max-width: 768px) {
+    nav ul{
+        display: none;
+    }
+
+    .menu i{
+        display: block;
+        color: white;
+    }
 }

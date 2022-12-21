@@ -21,17 +21,25 @@ ul {
 
 /* DIMENSIONI */
 .w70{
-	width: calc(70% - 1rem);
+	width: calc(70% - 4rem);
 
 	/* debug */
 	background-color: blueviolet;
-	height: 100px;
+	height: 300px;
+}
+
+.w50{
+	width: 50%;
+
+	/* debug */
+		background-color: blue;
+		height: 600px;
 }
 
 .w30{
-	width: calc(30% - 1rem);
+	width: calc(30% - 0.5rem);
 
 	/* debug */
 	background-color: blue;
-	height: 100px;
+	height: 300px;
 }
