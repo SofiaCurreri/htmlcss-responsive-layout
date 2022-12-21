@@ -22,6 +22,7 @@
 .col{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -78,8 +79,10 @@ nav{
     background-color: brown;
 }
 
-
-
+/* FOOTER */
+footer{
+    background-color: rgb(51, 51, 51);
+}
 
 
 

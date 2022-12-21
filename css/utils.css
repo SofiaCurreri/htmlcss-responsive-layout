@@ -22,6 +22,10 @@ ul {
 /* DIMENSIONI */
 .w100{
 	width: 100%;
+
+	/* debug */
+		height: 450px;
+		background-color: brown;
 }
 
 .w70{
