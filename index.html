@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Responsive layout</title>
+    <title> Responsive layout </title>
 
     <!-- IMPORT ICONS FROM FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    
+    
     <!-- IMPORT FONT FROM GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 
-    <!-- COLLEGAMENTO FILE CSS-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/utils.css">
+    <!-- COLLEGAMENTO FILE CSS -->
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -30,145 +31,227 @@
 
     <!-- HEADER -->
     <header>
+
         <nav class="container">
-            <div>
-                <img src="./img/logo.png" alt="logo">
+            <div class="logo">
+                <a href="#"> <img src="./img/logo.png" alt="logo"> </a>
             </div>
+            <ul class="links">
+                <li>
+                    <a href="#"> Planning </a>
+                </li>
+                <li>
+                    <a href="#"> Testimonials </a>
+                </li>
+                <li>
+                    <a href="#"> Features </a>
+                </li>
+                <li>
+                    <a href="#"> About Us </a>
+                </li>
+                <li>
+                    <a class="btn btn-primary" href="#"> Get Started </a>
+                </li>
+            </ul>
 
             <div class="menu">
                 <i class="fa-solid fa-bars"></i>
-                <ul>
-                    <li> <a href="#"> Planning </a> </li>
-                    <li> <a href="#"> Testimonials </a> </li>
-                    <li> <a href="#"> Features </a> </li>
-                    <li> <a href="#"> About Us </a> </li>
-                    <li> <a class="bt bt-white" href="#"> Get Started </a> </li>
-                </ul>
             </div>
         </nav>
+    
     </header>
 
 
     <!-- MAIN -->
     <main>
 
+        <!-- Jumbotron Section -->
+        <section id="cards">
+            <div class="cards container">
+                <div class="row">
+                    <div class="card">
+                        <div class="col-50">
+                            <div class="debug">CARD CONTENT</div>
+                            <div class="debug">CARD CONTENT</div>
+                            <div class="debug">CARD CONTENT</div>
+                        </div>
 
-        <!-- SECTION 1 -->
-        <section class="primary-1 mt1 mb3">
+                        <div class="col-50">
+                            <div class="debug">CARD IMAGE</div>
+                            <div class="debug">CARD IMAGE</div>
+                            <div class="debug">CARD IMAGE</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Plannin Section -->
+        <section id="planning">
+            <div class="container">
+                <div class="row jc-center">
+                    <div class="col-40">
+                        <div class="planning-image">
+                            <div class="debug">PLANNING IMAGE</div>
+                            <div class="debug">PLANNING IMAGE</div>
+                            <div class="debug">PLANNING IMAGE</div>
+                        </div>
+
+                        <div class="planning-details">
+                            <div class="debug">PLANNING CONTENT</div>
+                            <div class="debug">PLANNING CONTENT</div>
+                        </div>
+                    </div>
+
+                    <div class="col-40 ai-flex-end">
+                        <div class="card">
+                            <div class="planning-image">
+                                <div class="debug">PLANNING IMAGE</div>
+                            </div>
+
+                            <div class="planning-details">
+                                <div class="debug">PLANNING CONTENT</div>
+                                <div class="debug">PLANNING CONTENT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <div class="debug">TESTIMONIAL INTRO TEXT</div>
+
+                <div class="card">
+                    <figure class="card-image rounded-50 debug">
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                    </figure>
+                    <div class="card-contents">
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card-image rounded-50">
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                    </figure>
+                    <div class="card-contents">
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card-image rounded-50">
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                        <div class="debug">TESTIMONIAL IMAGE</div>
+                    </figure>
+                    <div class="card-contents">
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                        <div class="debug">TESTIMONIAL CONTENT</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits section -->
+        <section id="benefits">
+            <div class="cards container">
+                <div class="row">
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                    <div class="card">
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                        <div class="debug">CARD CONTENT</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="w70"></div>
-                    <div class="w30"></div>
-                    <div class="w30"></div>
-                    <div class="w30"></div>
-                    <div class="w30"></div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- SECTION 2 -->
-        <section>
-
-            <div class="primary-2">
-                <div class="xs-container">
-                    <div class="col w50 mt3 mb2"></div>
-                    <div class="col w50 mt3 mb2"></div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- SECTION 3 -->
-        <section>
-
-            <div class="container">
-                <div>
-                    <p></p>
-                    <h1></h1>
-                    <p></p>
-                </div>
-
-                <div class="col">
-                    <div class="w100 bordo"></div>
-                    <div class="w100 bordo"></div>
-                    <div class="w100 bordo"></div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- SECTION 4 -->
-        <section>
-
-            <div class="primary-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="w30"></div>
-                        <div class="w30"></div>
-                        <div class="w30"></div>
-                        <div class="w30"></div>
-                        <div class="w30"></div>
-                        <div class="w30"></div>
+                    <div class="col-70">
+                        <div class="card rounded">
+                            <div class="debug">ABOUT CONTENT</div>
+                            <div class="debug">ABOUT CONTENT</div>
+                            <div class="debug">ABOUT CONTENT</div>
+                            <div class="debug">ABOUT CONTENT</div>
+                            <div class="debug">ABOUT CONTENT</div>
+                            <div class="debug">ABOUT CONTENT</div>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="debug">ABOUT QUOTE</div>
+                        <div class="debug">ABOUT QUOTE</div>
+                        <div class="debug">ABOUT QUOTE</div>
                     </div>
                 </div>
             </div>
-       
-        </section>
-
-
-        <!-- SECTION 5 -->
-        <section>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col w70">
-                        <h1></h1>
-                        <p></p>
-                        <p></p>
-                    </div>
-
-                    <div class="col w30">
-                        <img src="" alt="">
-                        <h2></h2>
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-        
-        </section>
-
-
-        <!-- SECTION 6 -->
-        <section>
-
-            <div class="primary-2">
-                <div class="xs-container">
-                    <div class="w100"></div>
-                </div>
-            </div>
-
         </section>
 
     </main>
 
-
-
     <!-- FOOTER -->
     <footer>
 
-        <div class="xs container">
-            <div class="col">
-                <div style="background-color: aqua; width: 200px; height: 70px;"></div>
-                <div style="background-color: aqua; width: 200px; height: 70px;"></div>
-            </div>
-        </div>
-
     </footer>
 
+
 </body>
+
 </html>

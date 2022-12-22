@@ -1,15 +1,9 @@
 /* Utils */
 
-a, a:visited{
-	text-decoration: none;
-	color: white;
-}
-
-ul {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .clearfix::after {
@@ -18,54 +12,48 @@ ul {
 	display: table;
 }
 
-
-/* DIMENSIONI */
-.w100{
-	width: 100%;
-
-	/* debug */
-		height: 450px;
-		background-color: brown;
+.btn{
+	border-radius: 20px;
+	padding: 11px 13px;
 }
 
-.w70{
-	width: calc(100% / 3 * 2 - 1rem);
-
-	/* debug */
-	background-color: blueviolet;
-	height: 300px;
+.btn.btn-primary{
+	background-color: white;
+	color: black;
 }
 
-.w50{
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+	display: flex;
+}
+
+.jc-center {
+	display: flex;
+	justify-content: center;
+}
+
+.ai-flex-end {
+	display: flex;
+	align-items: flex-end;
+}
+
+.col-70 {
+	width: 70%;
+	padding: 0 15px;
+}
+
+.col-50 {
 	width: 50%;
-
-	/* debug */
-		background-color: blue;
-		height: 600px;
+	padding: 0 15px;
 }
 
-.w30{
-	width: calc(100% / 3 - 2rem);
-
-	/* debug */
-	background-color: blue;
-	height: 300px;
+.col-40 {
+	width: 40%;
+	padding: 0 15px;
 }
 
-
-/* MARGINI */
-.mb2 {
-	margin-bottom: 2rem;
-}
-
-.mb3{
-	margin-bottom: 3rem;
-}
-
-.mt1{
-	margin-top: 1rem;
-}
-
-.mt3{
-	margin-top: 3rem;
+.col-30 {
+	width: 30%;
+	padding: 0 15px;
 }
