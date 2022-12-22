@@ -43,6 +43,10 @@ main a {
 	background-color: rgb(151, 146, 228);
 }
 
+p{
+	line-height: 2rem;
+}
+
 .jc-center {
 	display: flex;
 	justify-content: center;
@@ -72,3 +76,20 @@ main a {
 	padding: 0 15px;
 }
 
+
+/* MARGINI */
+.mt3{
+	margin-top: 3rem;
+}
+
+.mt1{
+	margin-top: 1rem;
+}
+
+.mt-5{
+	margin-top: -5rem;
+}
+
+.mb1{
+	margin-bottom: 1rem;
+}
