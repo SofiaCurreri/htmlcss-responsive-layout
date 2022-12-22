@@ -1,15 +1,15 @@
 /* DEBUG */
-
+/* 
 .debug {
     background-color: lightskyblue;
     min-height: 80px;
     line-height: 80px;
     border: 2px dashed black;
-}
+} */
 
-body {
+/* body {
     background-color: lightblue;
-}
+} */
 
 /* HEADER */
 
@@ -40,10 +40,7 @@ header>nav>ul>li {
     display: inline-block;
 }
 
-nav a{
-    text-decoration: none;
-    color: white;
-}
+
 
 /* CARDS */
 
@@ -60,20 +57,47 @@ nav a{
 #cards .card {
     width: calc(100% / 3);
     padding: 15px;
-
-    border: 1px solid red;
+    background-color: rgb(181, 221, 255);
+    border-radius: 10px;
+    text-align: center;
 }
 
 #cards .card:first-child {
     width: calc(100% / 3 * 2);
     display: flex;
-    padding: 0;
+    padding: 15px;
+    text-align: left;
 }
+
+#cards .col-50{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#cards h3{
+    color: rgb(0, 132, 253);
+}
+
+#cards p{
+    color: rgb(90, 110, 127);
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+#cards .col-50.card-img{
+    width: 28%;
+    margin-left: 75px;
+}
+
+.card>.blu-primary{
+    color: rgb(0, 132, 253);
+    font-size: 5rem;
+} 
 
 /* PLANNING */
 
 #planning {
-    background-color: violet;
     padding: 50px 0;
 }
 
@@ -132,9 +156,6 @@ nav a{
 /* TABLET */
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
-    }
 
     .container {
         max-width: 800px;
@@ -189,9 +210,6 @@ nav a{
 /* MOBILE */
 
 @media screen and (max-width: 480px) {
-    body {
-        background-color: coral;
-    }
 
     .container {
         max-width: 450px;
